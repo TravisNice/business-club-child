@@ -1,0 +1,83 @@
+/*
+ * Theme Name: Business Club Child
+ * Theme URI: https://www.goondiwindi.qld.au/wordpress/wp-content/themes/business-club-child
+ * Description: Customisations for the Goondiwindi Chamber of Commerce
+ * Author: Travis Nice
+ * Author URI: https://www.everydaypublishing.com.au
+ * Template: business-club
+ * Version: 1.0.0
+ * License: GPLv3
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Tags: business-club
+ * Text Domain: business-club
+ */
+
+@media only screen and (max-width: 900px) {
+	#business-club-services-2,
+	#business-club-latest-news-2,
+	#business-club-featured-page-2 {
+		background-image: none;
+	}
+}
+
+#business-club-services-2,
+#business-club-latest-news-2,
+#business-club-featured-page-2 {
+	background-attachment: fixed;
+}
+
+#business-club-featured-page-2 .featured-page-widget {
+	background-color: #ffffff;
+}
+
+@media only screen and (min-width:901px) {
+	#business-club-services-2 {
+		background-image: url( '/wp-content/uploads/2017/02/Goondiwindi-Chamber-of-Commerce-Customs-House-Back-FHD-170203.jpg' );
+	}
+
+	#business-club-latest-news-2 {
+		background-image: url( '/wp-content/uploads/2017/02/Old-Bridge.jpg' );
+	}
+
+	#business-club-featured-page-2 {
+		background-image: url( '/wp-content/uploads/2017/02/Goondiwindi-Chamber-of-Commerce-Marshall-Street-FHD-170203.jpg' );
+	}
+
+	#business-club-services-2,
+	#business-club-latest-news-2,
+	#business-club-featured-page-2 {
+		background-position: center;
+	}
+
+	#business-club-services-2,
+	#business-club-latest-news-2,
+	#business-club-featured-page-2 {
+		background-repeat: no-repeat;
+	}
+}
+
+#business-club-featured-page-2 .featured-page-widget {
+	padding: 16px;
+}
+
+#business-club-services-2,
+#business-club-latest-news-2,
+#business-club-featured-page-2 {
+	margin-bottom: 5px;
+}
+
+article img {
+	padding: 12px;
+}
+
+.header-search-box .search-box-wrap,
+.main-navigation,
+.sidebar .widget,
+.page-header,
+#primary .site-main article,
+.services-layout-1.business_club_widget_services .service-block-item .custom-button,
+.services-layout-1.business_club_widget_services .service-block-inner:hover,
+.business_club_widget_latest_news .latest-news-wrapper
+#business-club-featured-page-2 .featured-page-widget {
+	box-shadow: 3px 3px 6px 0 #888;
+}
